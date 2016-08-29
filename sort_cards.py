@@ -15,4 +15,4 @@ def sort_cards(cards):
             return 13
         else:
             return int(card)
-    return sorted(cards, key=lambda c: _get_rank(c))
+    return sorted(cards, key=_get_rank)
