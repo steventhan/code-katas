@@ -7,5 +7,8 @@ Start virtual env and install dependencies `pip install -r requirements.txt`
 
 In console, use:
 ```
-./flight_paths "seattle" "london"
+./flight_paths.py "seattle" "london"
 ```
+
+Dependencies:
+- NetworkX graph
