@@ -19,6 +19,21 @@ def get_youngest_oldest(billionaires):
             youngest = person
     return youngest, oldest
 
+def format_output(data):
+    output = 'Oldest billionaire under 80 is:\n'
+    output += 'Name: {}\nAge: {}\nNet worth: {}\n'.format(
+            data[1]['name'],
+            data[1]['age'],
+            data[1]['net_worth (USD)']
+    )
+    output += 'Youngest billionaire is:\n'
+    output += 'Name: {}\nAge: {}\nNet worth: {}\n'.format(
+            data[0]['name'],
+            data[0]['age'],
+            data[0]['net_worth (USD)']
+    )
+    return output
+
 
 if __name__ == '__main__':
-    print(get_youngest_oldest(get_data('./forbes_billionaires_2016.json')))
+    print(format_output(get_youngest_oldest(get_data('./forbes_billionaires_2016.json'))))
