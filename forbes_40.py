@@ -19,13 +19,16 @@ def get_youngest_oldest(billionaires):
             youngest = person
     return youngest, oldest
 
+
 def format_output(data):
+    """Format text for a user-friendly output in the console."""
     output = 'Oldest billionaire under 80 is:\n'
     output += 'Name: {}\nAge: {}\nNet worth: {}\n'.format(
             data[1]['name'],
             data[1]['age'],
             data[1]['net_worth (USD)']
     )
+    output += '\n'
     output += 'Youngest billionaire is:\n'
     output += 'Name: {}\nAge: {}\nNet worth: {}\n'.format(
             data[0]['name'],
