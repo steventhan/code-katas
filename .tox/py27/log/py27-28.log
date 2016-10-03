@@ -1,0 +1,16 @@
+actionid: py27
+msg: installpkg
+cmdargs: [local('/Users/steven/401/hw/code-katas/.tox/py27/bin/pip'), 'install', '-U', '--no-deps', '/Users/steven/401/hw/code-katas/.tox/dist/code-katas-0.1.zip']
+env: {'TERM_PROGRAM': 'iTerm.app', 'COMMAND_MODE': 'unix2003', 'TERM': 'xterm-256color', 'TMPDIR': '/var/folders/6q/6g_9x0z15t7gdbbwz4vl6nfr0000gp/T/', '__CF_USER_TEXT_ENCODING': '0x1F6:0x0:0x0', 'SHELL': '/bin/bash', 'USER': 'steven', 'ITERM_PROFILE': 'Default', 'LANG': 'en_US.UTF-8', 'XPC_FLAGS': '0x0', 'COLORFGBG': '7;0', 'MANPATH': ':/Users/steven/.fzf/man', '_': '/Users/steven/401/hw/code-katas/venv/bin/tox', 'HOME': '/Users/steven', 'Apple_PubSub_Socket_Render': '/private/tmp/com.apple.launchd.Qlkf9ObYc0/Render', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.h4kIneu49x/Listeners', 'SECURITYSESSIONID': '186a7', 'OLDPWD': '/Users/steven/401/hw', 'PS1': '\\[\x1b[38;5;255m\\]\\[\x1b[48;5;238m\\] steven \\[\x1b[38;5;238m\\]\\[\x1b[48;5;234m\\]\ue0b0\\[\x1b[38;5;85m\\]\\[\x1b[48;5;234m\\] ⋯ \ue0b1 401 \ue0b1 hw \ue0b1 code-katas \\[\x1b[38;5;234m\\]\\[\x1b[48;5;238m\\]\ue0b0\\[\x1b[38;5;255m\\]\\[\x1b[48;5;238m\\] \ue0a0 forbes-40 \\[\x1b[38;5;238m\\]\\[\x1b[48;5;166m\\]\ue0b0\\[\x1b[38;5;232m\\]\\[\x1b[48;5;166m\\] 127 \\[\x1b[38;5;166m\\]\\[\x1b[49m\\]\ue0b0\\[\x1b[0m\\] ', '_fzf_completion_loaded': '0.11.3', 'TERM_SESSION_ID': 'w1t0p1:4EE44F23-BB9C-4688-8C38-1BF7BBB3B9A1', 'VIRTUAL_ENV': '/Users/steven/401/hw/code-katas/.tox/py27', 'ITERM_SESSION_ID': 'w1t0p1:4EE44F23-BB9C-4688-8C38-1BF7BBB3B9A1', 'XPC_SERVICE_NAME': '0', 'LOGNAME': 'steven', 'SHLVL': '1', 'PATH': '/Users/steven/401/hw/code-katas/.tox/py27/bin:/Users/steven/401/hw/code-katas/venv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Users/steven/.fzf/bin', 'PYTHONHASHSEED': '3596250978', 'PWD': '/Users/steven/401/hw/code-katas', 'TERM_PROGRAM_VERSION': '3.0.9'}
+
+Processing ./.tox/dist/code-katas-0.1.zip
+Building wheels for collected packages: code-katas
+  Running setup.py bdist_wheel for code-katas: started
+  Running setup.py bdist_wheel for code-katas: finished with status 'done'
+  Stored in directory: /Users/steven/Library/Caches/pip/wheels/25/e2/ef/d6d11a8ae0f40d6dab1c448e9739631b9bcfd2c194538e8808
+Successfully built code-katas
+Installing collected packages: code-katas
+  Found existing installation: code-katas 0.1
+    Uninstalling code-katas-0.1:
+      Successfully uninstalled code-katas-0.1
+Successfully installed code-katas-0.1

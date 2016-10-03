@@ -1,0 +1,10 @@
+actionid: py35
+msg: envreport
+cmdargs: ['/Users/steven/401/hw/code-katas/.tox/py35/bin/pip', 'freeze']
+env: {'LANG': 'en_US.UTF-8', 'PS1': '\\[\x1b[38;5;255m\\]\\[\x1b[48;5;238m\\] steven \\[\x1b[38;5;238m\\]\\[\x1b[48;5;234m\\]\ue0b0\\[\x1b[38;5;85m\\]\\[\x1b[48;5;234m\\] ⋯ \ue0b1 401 \ue0b1 hw \ue0b1 code-katas \\[\x1b[38;5;234m\\]\\[\x1b[48;5;238m\\]\ue0b0\\[\x1b[38;5;255m\\]\\[\x1b[48;5;238m\\] \ue0a0 forbes-40 \\[\x1b[38;5;238m\\]\\[\x1b[49m\\]\ue0b0\\[\x1b[0m\\] ', '_fzf_completion_loaded': '0.11.3', 'PWD': '/Users/steven/401/hw/code-katas', 'XPC_SERVICE_NAME': '0', 'TERM': 'xterm-256color', 'COMMAND_MODE': 'unix2003', 'SHLVL': '1', 'OLDPWD': '/Users/steven/401/hw', 'TERM_SESSION_ID': 'w1t0p1:4EE44F23-BB9C-4688-8C38-1BF7BBB3B9A1', 'PYTHONHASHSEED': '3191953319', 'SECURITYSESSIONID': '186a7', 'LOGNAME': 'steven', 'SHELL': '/bin/bash', 'XPC_FLAGS': '0x0', 'VIRTUAL_ENV': '/Users/steven/401/hw/code-katas/.tox/py35', '__CF_USER_TEXT_ENCODING': '0x1F6:0x0:0x0', 'PATH': '/Users/steven/401/hw/code-katas/.tox/py35/bin:/Users/steven/401/hw/code-katas/venv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Users/steven/.fzf/bin', 'USER': 'steven', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.h4kIneu49x/Listeners', 'TERM_PROGRAM_VERSION': '3.0.9', 'TMPDIR': '/var/folders/6q/6g_9x0z15t7gdbbwz4vl6nfr0000gp/T/', 'COLORFGBG': '7;0', 'ITERM_PROFILE': 'Default', 'TERM_PROGRAM': 'iTerm.app', 'MANPATH': ':/Users/steven/.fzf/man', 'HOME': '/Users/steven', 'Apple_PubSub_Socket_Render': '/private/tmp/com.apple.launchd.Qlkf9ObYc0/Render', '_': '/Users/steven/401/hw/code-katas/venv/bin/tox', 'ITERM_SESSION_ID': 'w1t0p1:4EE44F23-BB9C-4688-8C38-1BF7BBB3B9A1'}
+
+code-katas==0.1
+coverage==4.2
+py==1.4.31
+pytest==3.0.2
+pytest-cov==2.3.1

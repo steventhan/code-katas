@@ -1,0 +1,6 @@
+setup.py
+code_katas.egg-info/PKG-INFO
+code_katas.egg-info/SOURCES.txt
+code_katas.egg-info/dependency_links.txt
+code_katas.egg-info/entry_points.txt
+code_katas.egg-info/top_level.txt
